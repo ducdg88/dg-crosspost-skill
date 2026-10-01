@@ -1,0 +1,10 @@
+config.json
+.env
+.env.*
+*.key
+*token*
+queue/
+outbox/
+logs/
+__pycache__/
+*.pyc

@@ -1,0 +1,10 @@
+{
+  "gio_dang": {"mui_gio": 7, "gio_bat_dau": "07:00", "gio_ket_thuc": "22:00", "gio_hen_sang": "07:30", "gian_cach_phut": 10},
+  "bo_gach_dai": true,
+  "nen_tang": {
+    "zalo":       {"bat": true, "kieu": "webhook", "url_env": "CROSSPOST_ZALO_WEBHOOK"},
+    "zalo_group": {"bat": true, "kieu": "outbox",  "thu_muc": "outbox/zalo_group"},
+    "tiktok":     {"bat": true, "kieu": "webhook", "url_env": "CROSSPOST_TIKTOK_WEBHOOK"},
+    "youtube":    {"bat": true, "kieu": "webhook", "url_env": "CROSSPOST_YOUTUBE_WEBHOOK"}
+  }
+}
